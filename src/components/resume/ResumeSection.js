@@ -2,12 +2,37 @@ import React from "react";
 import "../../css/resume/resumeSection.css";
 
 const ResumeSection = () => {
+  const dockerFoundations = (
+    <a
+      href="https://www.linkedin.com/learning/certificates/45a404b8e52565ea385f7bd3a3cdd7144f690ca35fb0cb0e2e5fd0399f1973ed?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bxa1znT1DSG%2B9NZb9Ec0zIw%3D%3D"
+      target="_blank"
+      rel="noopener noreferrer">
+      Docker Foundations
+    </a>
+  );
+  const microservicesFoundations = (
+    <a
+      href="https://www.linkedin.com/learning/certificates/b4cfc75c97aedeb3a26b8656c8438a69ca5ca6a25b3332dccb67eabf28234526?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bxa1znT1DSG%2B9NZb9Ec0zIw%3D%3D"
+      target="_blank"
+      rel="noopener noreferrer">
+      Microservices Foundations
+    </a>
+  );
+  const gitHubProfessionals = (
+    <a
+      href="https://www.linkedin.com/learning/certificates/45a404b8e52565ea385f7bd3a3cdd7144f690ca35fb0cb0e2e5fd0399f1973ed?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bxa1znT1DSG%2B9NZb9Ec0zIw%3D%3D"
+      target="_blank"
+      rel="noopener noreferrer">
+      GitHub Professionals
+    </a>
+  );
+  
   return (
     <section className="resume-container">
       <div className="container">
         <header className="resume-header">
           <h1 className="resume-title">Pavan Gajjar</h1>
-          <p className="resume-subtitle">Full Stack Web Developer</p>
+          <h3>Full Stack Web Developer</h3>
         </header>
 
         <div className="resume-content">
@@ -26,69 +51,71 @@ const ResumeSection = () => {
                   <tr>
                     <td>Backend</td>
                     <td>
-                      C#, .NET, .NET Framework, .NET Core, ASP.NET, Node.js,
-                      Azure Functions, MVC, Dapper, Entity Framework, LINQ,
-                      RESTful APIs, AJAX
+                      .NET | .NET Core | ASP.NET | C# | Entity Framework |
+                      ADO.NET | Dapper | LINQ | Nodejs (Basics) | RESTful APIs |
+                      Azure Functions
                     </td>
                   </tr>
                   <tr>
                     <td>Frontend</td>
                     <td>
-                      Angular 2+, AngularJS, React (Basics), JavaScript,
-                      TypeScript, HTML5, CSS3, JQuery, SCSS, ES6, NPM,
-                      Bootstrap, Angular Material, UI/UX Design
+                      Angular 8–18 | React JS | JavaScript | TypeScript | HTML5
+                      | CSS3 | Bootstrap | jQuery | ES6 | NPM | UI/UX |
+                      Responsive Design
                     </td>
                   </tr>
                   <tr>
-                    <td>Database</td>
-                    <td>Microsoft SQL Server, MySQL, SSMS, Workbench</td>
+                    <td>Database & ORM</td>
+                    <td>
+                      Microsoft SQL Server | MySQL | SQL Stored Procedures |
+                      SSMS | Workbench | MongoDB | Relational Data Modeling
+                    </td>
                   </tr>
                   <tr>
-                    <td>Version Control</td>
-                    <td>Git, Github, Gitlab</td>
+                    <td>Cloud & DevOps</td>
+                    <td>
+                      Microsoft Azure | Azure DevOps | Jenkins | Docker |
+                      Kubernetes | Deployment Pipelines
+                    </td>
                   </tr>
                   <tr>
-                    <td>Web Services</td>
-                    <td>Jenkins, Docker, Kubernetes</td>
+                    <td>Version Control & Collaboration</td>
+                    <td>Git | GitHub | GitLab | Bitbucket</td>
                   </tr>
                   <tr>
-                    <td>Cloud</td>
-                    <td>Azure</td>
+                    <td>Testing & Debugging</td>
+                    <td>
+                      Postman | Swagger UI | Fiddler | Test-Driven Development
+                      (TDD) | Karma | Jasmine | Debugging Tools
+                    </td>
                   </tr>
                   <tr>
-                    <td>Data</td>
-                    <td>JSON, XML</td>
+                    <td>Authentication & Security</td>
+                    <td>JWT | OAuth 2.0 | OWIN | Bcrypt | Secure API Design</td>
                   </tr>
                   <tr>
-                    <td>Logging & Task Management</td>
-                    <td>Jira, Azure, Zoho, Bitbucket</td>
+                    <td>Project & Task Management</td>
+                    <td>Jira | Azure Boards | Zoho</td>
                   </tr>
                   <tr>
-                    <td>Work Methodologies</td>
-                    <td>Agile methodologies, Scrum</td>
+                    <td>Data Formats & Integration</td>
+                    <td>
+                      JSON | XML | API Integration | Microservices Architecture
+                    </td>
                   </tr>
                   <tr>
-                    <td>Unit Testing</td>
-                    <td>TDD, Karma, Jasmine</td>
-                  </tr>
-                  <tr>
-                    <td>IDE</td>
-                    <td>Visual Studio, Visual Studio Code</td>
-                  </tr>
-                  <tr>
-                    <td>API Testing</td>
-                    <td>Postman, Swagger UI, Fiddler</td>
-                  </tr>
-                  <tr>
-                    <td>Authentication</td>
-                    <td>OAuth 2.0, JWT, Owin</td>
+                    <td>Tools & IDEs</td>
+                    <td>
+                      Visual Studio | VS Code | Canva | Adobe Photoshop | Adobe
+                      Premiere Pro | MS Office | Figmax (for UI collaboration)
+                    </td>
                   </tr>
                   <tr>
                     <td>Soft Skills</td>
                     <td>
-                      Leadership, Troubleshooting, Communication, Time
-                      Management, Problem-Solving, Teamwork, Project Management,
-                      Decision-making
+                      Problem Solving | Communication | Team Collaboration |
+                      Time Management | Agile/Scrum | Technical Leadership |
+                      Detail-Oriented | Troubleshooting
                     </td>
                   </tr>
                   <tr>
@@ -101,8 +128,8 @@ const ResumeSection = () => {
                   <tr>
                     <td>Certifications</td>
                     <td>
-                      Docker Foundations, Microservices Foundations, Github
-                      Professionals
+                      {dockerFoundations}, {microservicesFoundations},{" "}
+                      {gitHubProfessionals}
                     </td>
                   </tr>
                 </tbody>
@@ -113,59 +140,74 @@ const ResumeSection = () => {
           <section className="experience-section">
             <div className="container">
               <h2 className="experience-title">Work Experience</h2>
+
               <div className="experience-item">
-                <h3>Software Developer</h3>
+                <h3>Software Engineer</h3>
+                <p className="experience-date">Sept 2024 - April 2025</p>
+                <p className="experience-company">
+                  Wild Hog Country Market, Stratford, Ontario
+                </p>
+                <ul className="experience-description">
+                  <li>
+                    - Developed a responsive Single Page Application using
+                    Angular 14 with reusable UI components to ensure consistency
+                    and scalability.
+                  </li>
+                  <li>
+                    - Built a .NET 6 Web API to support future backend
+                    integration, managing static data with TypeScript for
+                    structured content delivery.
+                  </li>
+                  <li>
+                    - Managed the hosting environment, overseeing deployment,
+                    configuration, and performance optimization for seamless web
+                    access.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="experience-item">
+                <h3>Software Engineer</h3>
                 <p className="experience-date">Aug 2021 - April 2023</p>
                 <p className="experience-company">
                   PathQuest Solutions Private Limited, Ahmedabad, India
                 </p>
                 <ul className="experience-description">
                   <li>
-                    - Upgraded the front end from Angular 8 to Angular 13,
-                    implementing a scalable architecture for rendering diverse
-                    report types as well as developed reusable UI components to
-                    enhance functionality and improve user experience.
+                    - Built scalable web applications using modern front-end
+                    frameworks and RESTful APIs in a microservices environment.
                   </li>
                   <li>
-                    - Integrated multiple company accounts per user account,
-                    efficiently connecting third-party accounting tools to fetch
-                    and render data.
+                    - Developed reusable UI components, optimized data handling,
+                    and contributed to multi-tenant systems with secure
+                    authentication.
                   </li>
                   <li>
-                    - Collaborated in Agile teams to integrate APIs with Azure
-                    Functions and implement secure, cloud-based data storage
-                    solutions.
-                  </li>
-                  <li>
-                    - Delivered high-quality applications by leveraging advanced
-                    debugging techniques, clean coding practices, and
-                    performance optimization, exceeding client expectations.
+                    - Collaborated in Agile teams to deliver user-focused
+                    solutions across finance and global mobility domains.
                   </li>
                 </ul>
               </div>
 
               <div className="experience-item">
-                <h3>Software Developer</h3>
+                <h3>Software Engineer</h3>
                 <p className="experience-date">Sept 2020 - Jul 2021</p>
                 <p className="experience-company">
                   Pacific Global Solutions Limited, Ahmedabad, India
                 </p>
                 <ul className="experience-description">
                   <li>
-                    - Designed and optimized database schemas to integrate
-                    third-party accounting tools, employing relational data
-                    models, SQL stored procedures, queries, and linked tables.
+                    - Developed modular .NET APIs and optimized relational
+                    databases to support enterprise SaaS products.
                   </li>
                   <li>
-                    - Developed a self-contained .NET API back-end project as
-                    part of a distributed systems, implementing CRUD operations
-                    using Dapper and Entity Framework for efficient
-                    communication between systems.
+                    - Integrated third-party tools like ZOHO for secure
+                    payments, subscriptions and chatbot functionality.
                   </li>
                   <li>
-                    - Built a secure payment workflow using ZOHO Subscription
-                    and integrated ZOHO Chatbot to enhance user interactions
-                    within enterprise applications.
+                    - Streamlined backend workflows and enhanced system
+                    performance through efficient data access and service
+                    design.
                   </li>
                 </ul>
               </div>
@@ -179,18 +221,19 @@ const ResumeSection = () => {
               <h3>Pathquest Business Intelligence</h3>
               <ul className="project-description">
                 <li>
-                  Designed and optimized a database schema to integrate
-                  third-party accounting tools, utilizing relational data models
-                  with SQL stored procedures, SQL queries, and linked tables.
-                  Created and developed a self-contained .NET API back end
-                  project as part of a microservices architecture, implementing
-                  CRUD operations using Dapper and Entity Framework for seamless
-                  communication between systems.
+                  Designed and optimized relational database schemas to
+                  integrate third-party accounting tools using SQL stored
+                  procedures, queries, and linked tables.
                 </li>
                 <li>
-                  Designed a secure payment workflow using ZOHO Subscription and
-                  integrated a ZOHO Chatbot to enhance user interactions within
-                  enterprise applications.
+                  Developed a self-contained .NET API back-end as part of a
+                  microservices architecture, implementing CRUD operations using
+                  Dapper and Entity Framework.
+                </li>
+                <li>
+                  Implemented a secure payment workflow with ZOHO Subscription
+                  and integrated a ZOHO Chatbot to enhance enterprise-level user
+                  interaction.
                 </li>
               </ul>
             </div>
@@ -199,18 +242,18 @@ const ResumeSection = () => {
               <h3>Pathquest Account Payable</h3>
               <ul className="project-description">
                 <li>
-                  Collaborated with the team to upgrade the front-end from
-                  Angular 8 to Angular 13, implementing a scalable architecture
-                  to render various types of reports.
+                  Upgraded the front end from Angular 8 to Angular 13,
+                  implementing a scalable architecture to support complex
+                  reporting workflows.
                 </li>
                 <li>
-                  Developed reusable UI components as part of a team effort to
-                  enhance functionality and improve user experience.
+                  Developed reusable UI components to enhance maintainability
+                  and user experience.
                 </li>
                 <li>
-                  Contributed to connecting multiple company accounts as per
-                  user accounts, working with different account tools to fetch
-                  data and render reports efficiently.
+                  Integrated multiple company accounts with user profiles,
+                  fetching data from external accounting tools and rendering
+                  dynamic reports.
                 </li>
               </ul>
             </div>
@@ -219,15 +262,13 @@ const ResumeSection = () => {
               <h3>HLS Global ITR</h3>
               <ul className="project-description">
                 <li>
-                  Collaborated with the team to design and implement the
-                  front-end architecture using Angular 14, creating interactive
-                  dashboards with Highcharts.js and integrating user
-                  authentication and registration features.
+                  Designed and developed the front-end architecture in Angular
+                  14, featuring interactive dashboards with Highcharts.js.
                 </li>
                 <li>
-                  Worked on back-end development with Azure Functions and MySQL,
-                  building APIs and ensuring seamless data integration between
-                  the front-end and database.
+                  Implemented user authentication and registration, and built
+                  backend APIs using Azure Functions and MySQL for seamless data
+                  flow.
                 </li>
               </ul>
             </div>
@@ -236,28 +277,14 @@ const ResumeSection = () => {
               <h3>HLS Global Expat Management System</h3>
               <ul className="project-description">
                 <li>
-                  Engineered a many-to-many relationship architecture to manage
-                  multiple users, companies, and roles, enabling a scalable
-                  solution for expat management.
+                  Built a modular front end using Angular 13, including reusable
+                  components and company-specific portals utilizing session and
+                  local storage.
                 </li>
                 <li>
-                  Developed a dynamic front end architecture in Angular 13,
-                  setting up environments, reusable components, and
-                  company-specific portals using session and local storage to
-                  display user-specific data across multiple browser tabs.
-                </li>
-              </ul>
-            </div>
-
-            <div className="project-item">
-              <h3>Identity Server Project</h3>
-              <ul className="project-description">
-                <li>
-                  Contributed to migrating the login and registration process
-                  for Business Intelligence and Accounts Payable systems from
-                  OWIN to .NET 5 Identity Server with JWT authentication,
-                  enhancing security and gaining experience in advanced
-                  authentication systems.
+                  Engineered a scalable many-to-many relationship structure to
+                  manage users, companies, and roles efficiently across multiple
+                  tabs and sessions.
                 </li>
               </ul>
             </div>
@@ -266,48 +293,72 @@ const ResumeSection = () => {
               <h3>Bill Arc</h3>
               <ul className="project-description">
                 <li>
-                  Led the transition to a modern stack using ReactJS for the
-                  front end and Node.js for the backend for e-commerce payment
-                  management application.
+                  Led the migration to a modern tech stack with ReactJS
+                  (frontend) and Node.js (backend) for an e-commerce payment
+                  management platform.
                 </li>
                 <li>
-                  Implemented secure RESTful APIs, modular architecture, and
-                  clean code principles.
-                </li>
-              </ul>
-            </div>
-
-            <div className="project-item">
-              <h3>Dfarm (Michigan, United States) Nov 2022 - Dec 2022</h3>
-              <ul className="project-description">
-                <li>
-                  Developed responsive frontend architecture with Angular 14 for
-                  scalable, multi-portal management, and integrated product
-                  listing to payment page workflows from Figma design.
-                </li>
-                <li>
-                  Set up deployment environments for project phases, optimizing
-                  DevOps processes, and added JSON and custom JavaScript
-                  animations for enhanced experience.
+                  Developed secure RESTful APIs and implemented modular, clean
+                  code architecture.
                 </li>
               </ul>
             </div>
 
             <div className="project-item">
               <h3>
-                Capstone Final Term Project (Kitchener, Canada) May 2024 - Aug
-                2024
+                Agritech Supply Chain - Dfarm (Michigan, USA) Nov 2022 – Dec
+                2022
               </h3>
               <ul className="project-description">
                 <li>
-                  Developed a comprehensive Tenancy Management System using the
-                  MERN stack, integrating JWT authentication and bcrypt for
-                  secure API access.
+                  Developed a responsive front-end architecture using Angular 14
+                  for scalable multi-portal management.
                 </li>
                 <li>
-                  Built a scalable Single Page Application (SPA) with React.js,
-                  leveraging a component-based design to ensure modularity and
-                  seamless user experiences.
+                  Integrated Figma-based designs into product listing and
+                  payment workflows, and enhanced UI/UX with JSON and custom
+                  JavaScript animations.
+                </li>
+                <li>
+                  Streamlined deployment environments to improve DevOps
+                  processes.
+                </li>
+              </ul>
+            </div>
+
+            <div className="project-item">
+              <h3>
+                Capstone Final Term Project - Kitchener, Canada (May 2024 – Aug
+                2024)
+              </h3>
+              <ul className="project-description">
+                <li>
+                  Built a Tenancy Management System using the MERN stack with
+                  JWT-based authentication and bcrypt for secure API access.
+                </li>
+                <li>
+                  Developed a scalable Single Page Application (SPA) using
+                  React.js with a component-based architecture to ensure
+                  seamless user interaction.
+                </li>
+              </ul>
+            </div>
+
+            <div className="project-item">
+              <h3>Country Market Website - Wild Hog Country Market</h3>
+              <ul className="project-description">
+                <li>
+                  Built a responsive Single Page Application using Angular 14 to
+                  display departmental content with structured layouts and
+                  images.
+                </li>
+                <li>
+                  Managed static data with TypeScript and set up a .NET 6 Web
+                  API for future backend integration.
+                </li>
+                <li>
+                  Designed reusable UI components to ensure consistency,
+                  responsiveness, and scalability.
                 </li>
               </ul>
             </div>
